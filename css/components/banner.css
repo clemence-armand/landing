@@ -1,0 +1,25 @@
+.banner {
+  background-image:
+    /* Transparent gradient above */
+    linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.1) 50%),
+    /* Then image below */
+    url("https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bm91cnJpdHVyZXxlbnwwfHwwfHx8MA%3D%3D");
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+}
+
+/* Text inside the banner */
+.banner h1 {
+  color: white;
+  font-size: 50px;
+  margin: 0 0 10px;
+}
+
+.banner h2 {
+  color: white;
+  font-size: 30px;
+  font-weight: lighter;
+  opacity: 0.8;
+  margin: 0 0 20px;
+}
